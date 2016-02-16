@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/s_select_option" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_livebus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="launchWebview"
+            android:layout_weight="1"
+            android:text="Marguerite Live Map" />
+
+        <Button
+            android:id="@+id/button_campus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="launchWebview"
+            android:layout_weight="1"
+            android:text="Campus map" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_gym"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="launchWebview"
+            android:layout_weight="1"
+            android:text="Arrillaga Gym" />
+
+        <Button
+            android:id="@+id/button_dining"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="launchWebview"
+            android:layout_weight="1"
+            android:text="Dining hall hours" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/text_busroute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s_marguerite_timetables" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:text="@string/spinner_prompt" />
+
+        <Spinner
+            android:id="@+id/spinner_bus_schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:prompt="@+string/spinner_prompt" />
+
+    </LinearLayout>
+
+</LinearLayout>
