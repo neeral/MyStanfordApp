@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select your option" />
+        android:text="@string/s_select_option" />
 
     <Button
         android:id="@+id/button_livebus"
@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Marguerite timetables" />
+        android:text="@string/s_marguerite_timetables" />
 
     <LinearLayout
         android:layout_width="match_parent"

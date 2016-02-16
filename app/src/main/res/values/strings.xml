@@ -10,6 +10,8 @@
     <string name="url_dining_hours">https://rde.stanford.edu/dining/dining-hall-hours</string>
     <string name="google">google.com</string>
     <string name="spinner_prompt">Select a bus route</string>
+    <string name="s_marguerite_timetables">Marguerite timetables</string>
+    <string name="s_select_option">Select your option</string>
 
     <string-array name="bus_routes">
         <item>C</item>
