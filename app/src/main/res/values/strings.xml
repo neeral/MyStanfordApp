@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyStanford</string>
+    <string name="title_activity_campus_map">CampusMapActivity</string>
+    <string name="url_campus_map">https://campus-map.stanford.edu/?id=</string>
+    <!--<string name="url_bus_map">lbre-apps.stanford.edu/transportation/stanford_ivl/</string>-->
+    <!--<string name="url_bus_map">https://transportation.stanford.edu/marguerite/</string>-->
+    <string name="url_bus_schedule_prefix">https://transportation.stanford.edu/marguerite/</string>
+    <string name="url_bus_map">http://shuttlemap.stanford.edu/</string>
+    <string name="url_gym_hours">http://cardinalrec.stanford.edu/facilities/facility-hours/</string>
+    <string name="url_dining_hours">https://rde.stanford.edu/dining/dining-hall-hours</string>
+    <string name="google">google.com</string>
+    <string name="spinner_prompt">Select a bus route</string>
+
+    <string-array name="bus_routes">
+        <item>C</item>
+        <item>N</item>
+        <item>O</item>
+        <item>SE</item>
+        <item>X</item>
+        <item>Y</item>
+    </string-array>
+</resources>
